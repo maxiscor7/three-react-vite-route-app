@@ -5,7 +5,7 @@ import About from './pages/About';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/three-react-vite-route-app">
       <nav>
         <ul>
           <li>

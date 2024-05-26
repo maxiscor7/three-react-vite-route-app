@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404</title>
     <script>
-      var redirectTo = window.location.pathname;
-      window.location.href = '/three-react-vite-route-app/' + redirectTo;
+      // Redirigir a la ruta correcta
+      var redirectTo = window.location.pathname.replace('/three-react-vite-route-app', '');
+      window.location.href = '/three-react-vite-route-app' + redirectTo;
     </script>
   </head>
   <body></body>
